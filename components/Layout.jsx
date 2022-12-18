@@ -3,11 +3,12 @@ import Head from "next/head";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
-const Layout = ({ children }) => {   //children = main page enclosed between navbar 
+const Layout = ({ children }) => {
+  //children = main page enclosed between navbar
   return (
     <div className="layout">
       <Head>
-        <title>Mohit Store </title>
+        <title>Mayur Store </title>
       </Head>
 
       <header>
